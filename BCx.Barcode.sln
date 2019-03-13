@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28621.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCx.BarCodeLibTest", "BCx.BarCodeLibTest\BCx.BarCodeLibTest.csproj", "{C1EF6096-B0EE-4BA9-85D1-3FF2EDF6C875}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCx.BarCodeEncoderLib", "BCx.BarcodeEncoderLib\BCx.BarCodeEncoderLib.csproj", "{207C35AF-E084-458E-9FB5-213F04547714}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCx.BarcodeEncoderWpf", "BCx.BarcodeEncoderWpf\BCx.BarcodeEncoderWpf.csproj", "{87AE6F40-F23D-48BE-A9CD-B83D654D429B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netStandard", "netStandard", "{0FEC3366-F887-4255-9840-A90497FADE69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netCoreWPF", "netCoreWPF", "{A849619A-A028-42F7-BFAC-15D94045A1BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCx.BarCodeWpfTest", "BCx.BarCodeWpfTest\BCx.BarCodeWpfTest.csproj", "{6E9D12A2-1618-48F9-BC88-0D82412738D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCx.BarCodeDecoderLib", "BCx.BarCodeDecoderLib\BCx.BarCodeDecoderLib.csproj", "{075019C5-8B4E-4247-947B-79635F2B01C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1EF6096-B0EE-4BA9-85D1-3FF2EDF6C875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EF6096-B0EE-4BA9-85D1-3FF2EDF6C875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EF6096-B0EE-4BA9-85D1-3FF2EDF6C875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EF6096-B0EE-4BA9-85D1-3FF2EDF6C875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207C35AF-E084-458E-9FB5-213F04547714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207C35AF-E084-458E-9FB5-213F04547714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207C35AF-E084-458E-9FB5-213F04547714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207C35AF-E084-458E-9FB5-213F04547714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AE6F40-F23D-48BE-A9CD-B83D654D429B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AE6F40-F23D-48BE-A9CD-B83D654D429B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AE6F40-F23D-48BE-A9CD-B83D654D429B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AE6F40-F23D-48BE-A9CD-B83D654D429B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9D12A2-1618-48F9-BC88-0D82412738D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9D12A2-1618-48F9-BC88-0D82412738D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9D12A2-1618-48F9-BC88-0D82412738D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9D12A2-1618-48F9-BC88-0D82412738D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075019C5-8B4E-4247-947B-79635F2B01C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075019C5-8B4E-4247-947B-79635F2B01C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075019C5-8B4E-4247-947B-79635F2B01C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075019C5-8B4E-4247-947B-79635F2B01C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1EF6096-B0EE-4BA9-85D1-3FF2EDF6C875} = {0FEC3366-F887-4255-9840-A90497FADE69}
+		{207C35AF-E084-458E-9FB5-213F04547714} = {0FEC3366-F887-4255-9840-A90497FADE69}
+		{87AE6F40-F23D-48BE-A9CD-B83D654D429B} = {A849619A-A028-42F7-BFAC-15D94045A1BE}
+		{6E9D12A2-1618-48F9-BC88-0D82412738D6} = {A849619A-A028-42F7-BFAC-15D94045A1BE}
+		{075019C5-8B4E-4247-947B-79635F2B01C1} = {0FEC3366-F887-4255-9840-A90497FADE69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF088B7B-DD0D-40C3-BA4D-D01B5AE7EA3A}
+	EndGlobalSection
+EndGlobal

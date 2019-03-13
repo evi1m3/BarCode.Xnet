@@ -1,0 +1,47 @@
+﻿<Window x:Class="BCx.BarCodeWPFTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        
+        xmlns:local ="clr-namespace:BCx.BarCodeWPFTest"
+        xmlns:bc    ="http://schemas.barcodeLib/wpfcontrols"
+        
+        Title="MainWindow" 
+        Background="WhiteSmoke"
+        
+        Height="800" Width="1000">
+
+    <Window.DataContext>
+        <local:MainWindowVM/>
+    </Window.DataContext>
+
+    <Grid Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+
+        <bc:Barcode128      Grid.Row="0" Grid.Column="0"    Code        ="{Binding DataCode128}"/>
+
+        <bc:BarcodeQR       Grid.Row="2" Grid.Column="0"    Code        ="{Binding DataCodeQR}"/>
+
+        <bc:BarcodeSwissQR  Grid.Row="2" Grid.Column="1"    Creditor    ="{Binding DataCreditor}"
+                                                            Iban        ="{Binding DataIban}"
+                                                            Reference   ="{Binding DataReference}"
+                                                            PayCurrency ="{Binding DataCurrency}"
+                                                            PayAmount   ="{Binding DataAmount}"/>
+
+        <bc:BarcodeAztec    Grid.Row="4" Grid.Column="0"    Code        ="{Binding DataAztec}"/>
+        <bc:BarcodePdf417   Grid.Row="4" Grid.Column="1"    Code        ="{Binding DataPdf417}"/>
+
+    </Grid>
+</Window>
